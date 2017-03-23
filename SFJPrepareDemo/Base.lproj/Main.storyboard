@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cs5-r2-ysO">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--首页-->
+        <scene sceneID="ljT-Rl-mpK">
+            <objects>
+                <navigationController id="jqE-ne-PF2" customClass="SFJBaseNavController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首页" image="tab_first_page_icon" selectedImage="tab_first_page_icon_h" id="zSB-Pe-Ntw"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H5e-Jb-OWF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hqW-AM-c6s" kind="relationship" relationship="rootViewController" id="Tj1-Pg-Rw0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jjY-th-jgp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="678" y="-315"/>
+        </scene>
+        <!--First Page Controller-->
+        <scene sceneID="Ilw-UU-oid">
+            <objects>
+                <viewController id="hqW-AM-c6s" customClass="SFJFirstPageController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F0k-RY-pYL"/>
+                        <viewControllerLayoutGuide type="bottom" id="FdB-Mn-ybl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Snv-s2-Y4e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0T9-u3-3Py"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IcQ-DI-sIK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1428" y="-315"/>
+        </scene>
+        <!--地块-->
+        <scene sceneID="chI-Bp-r40">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8x3-3t-2Mp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="l1o-5l-ita" customClass="SFJBaseNavController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="地块" image="tab_land_block" selectedImage="tab_land_block_h" id="t9I-5B-7BA"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Gc-cX-5ij">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="3fx-kS-H5J" kind="relationship" relationship="rootViewController" id="XLa-4U-FYP"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="678" y="365"/>
+        </scene>
+        <!--Base View Controller-->
+        <scene sceneID="A8c-60-vlQ">
+            <objects>
+                <viewController id="3fx-kS-H5J" customClass="SFJBaseViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="98m-zT-5Xp"/>
+                        <viewControllerLayoutGuide type="bottom" id="II5-xB-8vg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NON-Ry-csD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wCM-mv-RjF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yaj-L1-fV5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1428" y="365"/>
+        </scene>
+        <!--Main Tab Bar Controller-->
+        <scene sceneID="1N1-nr-4v9">
+            <objects>
+                <tabBarController id="cs5-r2-ysO" customClass="SFJMainTabBarController" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="MJS-ha-6mK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7SB-dp-Anv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-330" y="74"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab_first_page_icon" width="27" height="27"/>
+        <image name="tab_first_page_icon_h" width="27" height="27"/>
+        <image name="tab_land_block" width="27" height="27"/>
+        <image name="tab_land_block_h" width="27" height="27"/>
+    </resources>
+</document>
