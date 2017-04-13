@@ -1,6 +1,8 @@
 # SFJPrepareDemo
 三级控制器重复性工作的总结
 
+[TOC]
+## 基础框架搭建
 > 如今现在的项目也基本上都是使用三级控制器搭建框架，所以每次开始一个项目的时候
 都会有一些简单，但是却重复性的工作需要做。该demo就是对这些重复性代码的整理。
 
@@ -103,3 +105,18 @@ initlize方法里面进行设置，导航控制器设置
 
 > 最后当你需要创建三级控制器的框架的时候，可以直接参考该demo，重复使用base基类，通过上面的方法对基础标签项，背景等做设置
 。最后只需要使用封装好的方法，添加你的子控制器就行了。
+
+## Tool工具扩展
+### UIView+SFJExtension
+> 方便修改和设置中心点、frame
+```Objective-c
+@property (nonatomic, assign) CGFloat sfj_x;
+@property (nonatomic, assign) CGFloat sfj_y;
+
+@property (nonatomic, assign) CGFloat sfj_width;
+@property (nonatomic, assign) CGFloat sfj_height;
+
+@property (nonatomic, assign) CGFloat sfj_centerX;
+@property (nonatomic, assign) CGFloat sfj_centerY;
+```
+
