@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		81AE53131E827AA100CC002B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE53121E827AA100CC002B /* main.m */; };
 		81AE53161E827AA100CC002B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE53151E827AA100CC002B /* AppDelegate.m */; };
-		81AE53191E827AA100CC002B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE53181E827AA100CC002B /* ViewController.m */; };
 		81AE531C1E827AA100CC002B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AE531A1E827AA100CC002B /* Main.storyboard */; };
 		81AE531E1E827AA100CC002B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81AE531D1E827AA100CC002B /* Assets.xcassets */; };
 		81AE53211E827AA100CC002B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AE531F1E827AA100CC002B /* LaunchScreen.storyboard */; };
@@ -18,14 +17,14 @@
 		81AE53DF1E827F9300CC002B /* SFJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE53DE1E827F9300CC002B /* SFJBaseViewController.m */; };
 		81AE53E21E827FC400CC002B /* SFJBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE53E11E827FC400CC002B /* SFJBaseNavController.m */; };
 		81AE53E51E82800D00CC002B /* SFJMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE53E41E82800D00CC002B /* SFJMainTabBarController.m */; };
-		81AE53EB1E8281F200CC002B /* UIColor+SFJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE53E81E8281F200CC002B /* UIColor+SFJExtension.m */; };
-		81AE53EC1E8281F200CC002B /* UIView+SFJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE53EA1E8281F200CC002B /* UIView+SFJExtension.m */; };
-		81AE53EF1E82823900CC002B /* UITabBarItem+SFJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE53EE1E82823900CC002B /* UITabBarItem+SFJExtension.m */; };
-		81AE53F91E83630F00CC002B /* SFJFirstPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE53F81E83630F00CC002B /* SFJFirstPageController.m */; };
-		81AE53FB1E8368D200CC002B /* SFJFirstPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AE53FA1E8368D200CC002B /* SFJFirstPage.storyboard */; };
-		81AE54021E836C8E00CC002B /* SFJSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE54011E836C8E00CC002B /* SFJSetViewController.m */; };
-		81AE54041E836CA200CC002B /* SFJSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AE54031E836CA200CC002B /* SFJSet.storyboard */; };
-		81AE54071E8372CB00CC002B /* SFJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE54061E8372CB00CC002B /* SFJLoginViewController.m */; };
+		81E7E8C31E9F7BF40034C9E1 /* SFJFirstPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E7E8B51E9F7BF40034C9E1 /* SFJFirstPage.storyboard */; };
+		81E7E8C41E9F7BF40034C9E1 /* SFJFirstPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8B71E9F7BF40034C9E1 /* SFJFirstPageController.m */; };
+		81E7E8C51E9F7BF40034C9E1 /* SFJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8BD1E9F7BF40034C9E1 /* SFJLoginViewController.m */; };
+		81E7E8C61E9F7BF40034C9E1 /* SFJSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E7E8BE1E9F7BF40034C9E1 /* SFJSet.storyboard */; };
+		81E7E8C71E9F7BF40034C9E1 /* SFJSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8C01E9F7BF40034C9E1 /* SFJSetViewController.m */; };
+		81E7E8D41E9F83EB0034C9E1 /* UIColor+SFJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8CF1E9F83EB0034C9E1 /* UIColor+SFJExtension.m */; };
+		81E7E8D51E9F83EB0034C9E1 /* UITabBarItem+SFJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8D11E9F83EB0034C9E1 /* UITabBarItem+SFJExtension.m */; };
+		81E7E8D61E9F83EB0034C9E1 /* UIView+SFJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8D31E9F83EB0034C9E1 /* UIView+SFJExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +49,6 @@
 		81AE53121E827AA100CC002B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81AE53141E827AA100CC002B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		81AE53151E827AA100CC002B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		81AE53171E827AA100CC002B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		81AE53181E827AA100CC002B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		81AE531B1E827AA100CC002B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81AE531D1E827AA100CC002B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81AE53201E827AA100CC002B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,20 +66,20 @@
 		81AE53E11E827FC400CC002B /* SFJBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJBaseNavController.m; sourceTree = "<group>"; };
 		81AE53E31E82800D00CC002B /* SFJMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJMainTabBarController.h; sourceTree = "<group>"; };
 		81AE53E41E82800D00CC002B /* SFJMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJMainTabBarController.m; sourceTree = "<group>"; };
-		81AE53E71E8281F200CC002B /* UIColor+SFJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SFJExtension.h"; sourceTree = "<group>"; };
-		81AE53E81E8281F200CC002B /* UIColor+SFJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SFJExtension.m"; sourceTree = "<group>"; };
-		81AE53E91E8281F200CC002B /* UIView+SFJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SFJExtension.h"; sourceTree = "<group>"; };
-		81AE53EA1E8281F200CC002B /* UIView+SFJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SFJExtension.m"; sourceTree = "<group>"; };
-		81AE53ED1E82823900CC002B /* UITabBarItem+SFJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+SFJExtension.h"; sourceTree = "<group>"; };
-		81AE53EE1E82823900CC002B /* UITabBarItem+SFJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+SFJExtension.m"; sourceTree = "<group>"; };
-		81AE53F71E83630F00CC002B /* SFJFirstPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJFirstPageController.h; sourceTree = "<group>"; };
-		81AE53F81E83630F00CC002B /* SFJFirstPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJFirstPageController.m; sourceTree = "<group>"; };
-		81AE53FA1E8368D200CC002B /* SFJFirstPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SFJFirstPage.storyboard; path = Controller/SFJFirstPage.storyboard; sourceTree = "<group>"; };
-		81AE54001E836C8E00CC002B /* SFJSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJSetViewController.h; sourceTree = "<group>"; };
-		81AE54011E836C8E00CC002B /* SFJSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJSetViewController.m; sourceTree = "<group>"; };
-		81AE54031E836CA200CC002B /* SFJSet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SFJSet.storyboard; path = Controller/SFJSet.storyboard; sourceTree = "<group>"; };
-		81AE54051E8372CB00CC002B /* SFJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJLoginViewController.h; sourceTree = "<group>"; };
-		81AE54061E8372CB00CC002B /* SFJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJLoginViewController.m; sourceTree = "<group>"; };
+		81E7E8B51E9F7BF40034C9E1 /* SFJFirstPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SFJFirstPage.storyboard; sourceTree = "<group>"; };
+		81E7E8B61E9F7BF40034C9E1 /* SFJFirstPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJFirstPageController.h; sourceTree = "<group>"; };
+		81E7E8B71E9F7BF40034C9E1 /* SFJFirstPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJFirstPageController.m; sourceTree = "<group>"; };
+		81E7E8BC1E9F7BF40034C9E1 /* SFJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJLoginViewController.h; sourceTree = "<group>"; };
+		81E7E8BD1E9F7BF40034C9E1 /* SFJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJLoginViewController.m; sourceTree = "<group>"; };
+		81E7E8BE1E9F7BF40034C9E1 /* SFJSet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SFJSet.storyboard; sourceTree = "<group>"; };
+		81E7E8BF1E9F7BF40034C9E1 /* SFJSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJSetViewController.h; sourceTree = "<group>"; };
+		81E7E8C01E9F7BF40034C9E1 /* SFJSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJSetViewController.m; sourceTree = "<group>"; };
+		81E7E8CE1E9F83EB0034C9E1 /* UIColor+SFJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SFJExtension.h"; sourceTree = "<group>"; };
+		81E7E8CF1E9F83EB0034C9E1 /* UIColor+SFJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SFJExtension.m"; sourceTree = "<group>"; };
+		81E7E8D01E9F83EB0034C9E1 /* UITabBarItem+SFJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+SFJExtension.h"; sourceTree = "<group>"; };
+		81E7E8D11E9F83EB0034C9E1 /* UITabBarItem+SFJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+SFJExtension.m"; sourceTree = "<group>"; };
+		81E7E8D21E9F83EB0034C9E1 /* UIView+SFJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SFJExtension.h"; sourceTree = "<group>"; };
+		81E7E8D31E9F83EB0034C9E1 /* UIView+SFJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SFJExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,16 +130,11 @@
 		81AE53101E827AA100CC002B /* SFJPrepareDemo */ = {
 			isa = PBXGroup;
 			children = (
-				81AE53DB1E827F6200CC002B /* Base */,
 				81AE53141E827AA100CC002B /* AppDelegate.h */,
 				81AE53151E827AA100CC002B /* AppDelegate.m */,
-				81AE53F31E8362CD00CC002B /* FirstPage */,
-				81AE53FC1E836C1600CC002B /* Setting */,
-				81AE53171E827AA100CC002B /* ViewController.h */,
-				81AE53181E827AA100CC002B /* ViewController.m */,
-				81AE531D1E827AA100CC002B /* Assets.xcassets */,
-				81AE531F1E827AA100CC002B /* LaunchScreen.storyboard */,
-				81AE53221E827AA100CC002B /* Info.plist */,
+				81AE53DB1E827F6200CC002B /* Base */,
+				81E7E8B21E9F7BF40034C9E1 /* Main */,
+				81E7E8C81E9F7C130034C9E1 /* Tool */,
 				81AE53111E827AA100CC002B /* Supporting Files */,
 			);
 			path = SFJPrepareDemo;
@@ -151,6 +143,9 @@
 		81AE53111E827AA100CC002B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				81AE531D1E827AA100CC002B /* Assets.xcassets */,
+				81AE531F1E827AA100CC002B /* LaunchScreen.storyboard */,
+				81AE53221E827AA100CC002B /* Info.plist */,
 				81AE53441E827D0700CC002B /* SFJPrepare-Prefix.pch */,
 				81AE53121E827AA100CC002B /* main.m */,
 			);
@@ -179,7 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				81AE531A1E827AA100CC002B /* Main.storyboard */,
-				81AE53E61E8281F200CC002B /* Category */,
 				81AE53DC1E827F6200CC002B /* ViewController */,
 			);
 			path = Base;
@@ -198,87 +192,104 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		81AE53E61E8281F200CC002B /* Category */ = {
+		81E7E8B21E9F7BF40034C9E1 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				81AE53E71E8281F200CC002B /* UIColor+SFJExtension.h */,
-				81AE53E81E8281F200CC002B /* UIColor+SFJExtension.m */,
-				81AE53E91E8281F200CC002B /* UIView+SFJExtension.h */,
-				81AE53EA1E8281F200CC002B /* UIView+SFJExtension.m */,
-				81AE53ED1E82823900CC002B /* UITabBarItem+SFJExtension.h */,
-				81AE53EE1E82823900CC002B /* UITabBarItem+SFJExtension.m */,
+				81E7E8B31E9F7BF40034C9E1 /* FirstPage */,
+				81E7E8BA1E9F7BF40034C9E1 /* Setting */,
 			);
-			path = Category;
+			path = Main;
 			sourceTree = "<group>";
 		};
-		81AE53F31E8362CD00CC002B /* FirstPage */ = {
+		81E7E8B31E9F7BF40034C9E1 /* FirstPage */ = {
 			isa = PBXGroup;
 			children = (
-				81AE53FA1E8368D200CC002B /* SFJFirstPage.storyboard */,
-				81AE53F41E8362CD00CC002B /* Controller */,
-				81AE53F51E8362CD00CC002B /* Model */,
-				81AE53F61E8362CD00CC002B /* View */,
+				81E7E8B41E9F7BF40034C9E1 /* Controller */,
+				81E7E8B81E9F7BF40034C9E1 /* Model */,
+				81E7E8B91E9F7BF40034C9E1 /* View */,
 			);
 			path = FirstPage;
 			sourceTree = "<group>";
 		};
-		81AE53F41E8362CD00CC002B /* Controller */ = {
+		81E7E8B41E9F7BF40034C9E1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				81AE53F71E83630F00CC002B /* SFJFirstPageController.h */,
-				81AE53F81E83630F00CC002B /* SFJFirstPageController.m */,
+				81E7E8B51E9F7BF40034C9E1 /* SFJFirstPage.storyboard */,
+				81E7E8B61E9F7BF40034C9E1 /* SFJFirstPageController.h */,
+				81E7E8B71E9F7BF40034C9E1 /* SFJFirstPageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		81AE53F51E8362CD00CC002B /* Model */ = {
+		81E7E8B81E9F7BF40034C9E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		81AE53F61E8362CD00CC002B /* View */ = {
+		81E7E8B91E9F7BF40034C9E1 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		81AE53FC1E836C1600CC002B /* Setting */ = {
+		81E7E8BA1E9F7BF40034C9E1 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
-				81AE54031E836CA200CC002B /* SFJSet.storyboard */,
-				81AE53FD1E836C1600CC002B /* Controller */,
-				81AE53FE1E836C1600CC002B /* Model */,
-				81AE53FF1E836C1600CC002B /* View */,
+				81E7E8BB1E9F7BF40034C9E1 /* Controller */,
+				81E7E8C11E9F7BF40034C9E1 /* Model */,
+				81E7E8C21E9F7BF40034C9E1 /* View */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
 		};
-		81AE53FD1E836C1600CC002B /* Controller */ = {
+		81E7E8BB1E9F7BF40034C9E1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				81AE54001E836C8E00CC002B /* SFJSetViewController.h */,
-				81AE54011E836C8E00CC002B /* SFJSetViewController.m */,
-				81AE54051E8372CB00CC002B /* SFJLoginViewController.h */,
-				81AE54061E8372CB00CC002B /* SFJLoginViewController.m */,
+				81E7E8BC1E9F7BF40034C9E1 /* SFJLoginViewController.h */,
+				81E7E8BD1E9F7BF40034C9E1 /* SFJLoginViewController.m */,
+				81E7E8BE1E9F7BF40034C9E1 /* SFJSet.storyboard */,
+				81E7E8BF1E9F7BF40034C9E1 /* SFJSetViewController.h */,
+				81E7E8C01E9F7BF40034C9E1 /* SFJSetViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		81AE53FE1E836C1600CC002B /* Model */ = {
+		81E7E8C11E9F7BF40034C9E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		81AE53FF1E836C1600CC002B /* View */ = {
+		81E7E8C21E9F7BF40034C9E1 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		81E7E8C81E9F7C130034C9E1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				81E7E8CD1E9F83EA0034C9E1 /* Category */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		81E7E8CD1E9F83EA0034C9E1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				81E7E8CE1E9F83EB0034C9E1 /* UIColor+SFJExtension.h */,
+				81E7E8CF1E9F83EB0034C9E1 /* UIColor+SFJExtension.m */,
+				81E7E8D01E9F83EB0034C9E1 /* UITabBarItem+SFJExtension.h */,
+				81E7E8D11E9F83EB0034C9E1 /* UITabBarItem+SFJExtension.m */,
+				81E7E8D21E9F83EB0034C9E1 /* UIView+SFJExtension.h */,
+				81E7E8D31E9F83EB0034C9E1 /* UIView+SFJExtension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,8 +403,8 @@
 			files = (
 				81AE53211E827AA100CC002B /* LaunchScreen.storyboard in Resources */,
 				81AE531E1E827AA100CC002B /* Assets.xcassets in Resources */,
-				81AE54041E836CA200CC002B /* SFJSet.storyboard in Resources */,
-				81AE53FB1E8368D200CC002B /* SFJFirstPage.storyboard in Resources */,
+				81E7E8C61E9F7BF40034C9E1 /* SFJSet.storyboard in Resources */,
+				81E7E8C31E9F7BF40034C9E1 /* SFJFirstPage.storyboard in Resources */,
 				81AE531C1E827AA100CC002B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,16 +430,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E7E8D51E9F83EB0034C9E1 /* UITabBarItem+SFJExtension.m in Sources */,
 				81AE53E51E82800D00CC002B /* SFJMainTabBarController.m in Sources */,
-				81AE53EF1E82823900CC002B /* UITabBarItem+SFJExtension.m in Sources */,
-				81AE54071E8372CB00CC002B /* SFJLoginViewController.m in Sources */,
-				81AE53191E827AA100CC002B /* ViewController.m in Sources */,
-				81AE53EB1E8281F200CC002B /* UIColor+SFJExtension.m in Sources */,
+				81E7E8C41E9F7BF40034C9E1 /* SFJFirstPageController.m in Sources */,
+				81E7E8D61E9F83EB0034C9E1 /* UIView+SFJExtension.m in Sources */,
+				81E7E8C51E9F7BF40034C9E1 /* SFJLoginViewController.m in Sources */,
+				81E7E8D41E9F83EB0034C9E1 /* UIColor+SFJExtension.m in Sources */,
 				81AE53161E827AA100CC002B /* AppDelegate.m in Sources */,
-				81AE53F91E83630F00CC002B /* SFJFirstPageController.m in Sources */,
-				81AE53EC1E8281F200CC002B /* UIView+SFJExtension.m in Sources */,
 				81AE53E21E827FC400CC002B /* SFJBaseNavController.m in Sources */,
-				81AE54021E836C8E00CC002B /* SFJSetViewController.m in Sources */,
+				81E7E8C71E9F7BF40034C9E1 /* SFJSetViewController.m in Sources */,
 				81AE53131E827AA100CC002B /* main.m in Sources */,
 				81AE53DF1E827F9300CC002B /* SFJBaseViewController.m in Sources */,
 			);

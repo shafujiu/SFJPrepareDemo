@@ -7,9 +7,12 @@
 //
 
 #import "SFJFirstPageController.h"
+#import "UIView+SFJExtension.h"
 
 @interface SFJFirstPageController ()
+@property (weak, nonatomic) IBOutlet UIView *testView;
 
+@property (weak, nonatomic) IBOutlet UITextView *testTextView;
 @end
 
 @implementation SFJFirstPageController
@@ -20,9 +23,34 @@
     return firstvc;
 }
 
+
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.navigationItem.title = @"测试UIView分类";
+    
+}
+
+- (void)viewDidLayoutSubviews{
+    [super viewDidLayoutSubviews];
+    [self getViewFrameInfo:_testView];
+    
+}
+
+- (void)getViewFrameInfo:(UIView *)view{
+    _testTextView.text = [NSString stringWithFormat:@"点击屏幕 刷新信息 \nx = %f\n y = %f \n width = %f \n height = %f \n centerX = %f \n centerY = %f",view.sfj_x,view.sfj_y,view.sfj_width,view.sfj_height,view.sfj_centerX,view.sfj_centerY];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self getViewFrameInfo:_testView];
+}
+
+- (IBAction)setFrame:(id)sender {
+    _testView.sfj_x = 10;
+    _testView.sfj_y = 40;
 }
 
 - (void)didReceiveMemoryWarning {
