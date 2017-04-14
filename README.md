@@ -118,4 +118,17 @@ initlize方法里面进行设置，导航控制器设置
 @property (nonatomic, assign) CGFloat sfj_centerX;
 @property (nonatomic, assign) CGFloat sfj_centerY;
 ```
-
+### NSDateFormatter+SFJExtension
+> 日期相关的格式化，字符串与NSDate的互转，以及时间戳转日期字符串、、
+```Objective-c
+// 1. NSDate 转 NSString
++ (NSString *)sfj_dateToDateStr:(NSDate *)date formatterStr:(NSString *)formatter;
+// 2. NSString 转 NSDate
++ (NSDate *)sfj_dateStrToDate:(NSString *)string formatterStr:(NSString *)formatter;
+// 3. NSTimeInterval 转 NSString
++ (NSString *)sfj_timeIntervalToDateStr:(NSTimeInterval)interval formatterStr:(NSString *)formatter;
+// 4. NSString 转 NSTimeInterval
++ (NSTimeInterval)sfj_dateStrToTimeInterval:(NSString *)string formatterStr:(NSString *)formatter;
+// 5. dateStr to DateStr
++ (NSString *)sfj_dateStrToDateStr:(NSString *)dateStr fromFormatterStr:(NSString *)fFormatter toFormatterStr:(NSString *)toformatter;
+```
