@@ -25,6 +25,8 @@
 		81E7E8D41E9F83EB0034C9E1 /* UIColor+SFJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8CF1E9F83EB0034C9E1 /* UIColor+SFJExtension.m */; };
 		81E7E8D51E9F83EB0034C9E1 /* UITabBarItem+SFJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8D11E9F83EB0034C9E1 /* UITabBarItem+SFJExtension.m */; };
 		81E7E8D61E9F83EB0034C9E1 /* UIView+SFJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8D31E9F83EB0034C9E1 /* UIView+SFJExtension.m */; };
+		81E7E8D91EA07DE50034C9E1 /* NSDateFormatter+SFJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8D81EA07DE50034C9E1 /* NSDateFormatter+SFJExtension.m */; };
+		81E7E8E21EA0829B0034C9E1 /* SFJDateFormatterTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8E01EA0829B0034C9E1 /* SFJDateFormatterTestController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,10 @@
 		81E7E8D11E9F83EB0034C9E1 /* UITabBarItem+SFJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+SFJExtension.m"; sourceTree = "<group>"; };
 		81E7E8D21E9F83EB0034C9E1 /* UIView+SFJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SFJExtension.h"; sourceTree = "<group>"; };
 		81E7E8D31E9F83EB0034C9E1 /* UIView+SFJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SFJExtension.m"; sourceTree = "<group>"; };
+		81E7E8D71EA07DE50034C9E1 /* NSDateFormatter+SFJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+SFJExtension.h"; sourceTree = "<group>"; };
+		81E7E8D81EA07DE50034C9E1 /* NSDateFormatter+SFJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+SFJExtension.m"; sourceTree = "<group>"; };
+		81E7E8DF1EA0829B0034C9E1 /* SFJDateFormatterTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJDateFormatterTestController.h; sourceTree = "<group>"; };
+		81E7E8E01EA0829B0034C9E1 /* SFJDateFormatterTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJDateFormatterTestController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +223,8 @@
 				81E7E8B51E9F7BF40034C9E1 /* SFJFirstPage.storyboard */,
 				81E7E8B61E9F7BF40034C9E1 /* SFJFirstPageController.h */,
 				81E7E8B71E9F7BF40034C9E1 /* SFJFirstPageController.m */,
+				81E7E8DF1EA0829B0034C9E1 /* SFJDateFormatterTestController.h */,
+				81E7E8E01EA0829B0034C9E1 /* SFJDateFormatterTestController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -288,6 +296,8 @@
 				81E7E8D11E9F83EB0034C9E1 /* UITabBarItem+SFJExtension.m */,
 				81E7E8D21E9F83EB0034C9E1 /* UIView+SFJExtension.h */,
 				81E7E8D31E9F83EB0034C9E1 /* UIView+SFJExtension.m */,
+				81E7E8D71EA07DE50034C9E1 /* NSDateFormatter+SFJExtension.h */,
+				81E7E8D81EA07DE50034C9E1 /* NSDateFormatter+SFJExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -437,10 +447,12 @@
 				81E7E8C51E9F7BF40034C9E1 /* SFJLoginViewController.m in Sources */,
 				81E7E8D41E9F83EB0034C9E1 /* UIColor+SFJExtension.m in Sources */,
 				81AE53161E827AA100CC002B /* AppDelegate.m in Sources */,
+				81E7E8D91EA07DE50034C9E1 /* NSDateFormatter+SFJExtension.m in Sources */,
 				81AE53E21E827FC400CC002B /* SFJBaseNavController.m in Sources */,
 				81E7E8C71E9F7BF40034C9E1 /* SFJSetViewController.m in Sources */,
 				81AE53131E827AA100CC002B /* main.m in Sources */,
 				81AE53DF1E827F9300CC002B /* SFJBaseViewController.m in Sources */,
+				81E7E8E21EA0829B0034C9E1 /* SFJDateFormatterTestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

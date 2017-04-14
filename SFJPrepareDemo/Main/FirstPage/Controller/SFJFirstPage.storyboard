@@ -63,12 +63,21 @@
                                     <action selector="setFrame:" destination="6AZ-bU-krE" eventType="touchUpInside" id="4fY-H1-P0s"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Szm-ph-FAn">
+                                <rect key="frame" x="120.5" y="508" width="135" height="30"/>
+                                <state key="normal" title="push -&gt; 日期格式化"/>
+                                <connections>
+                                    <segue destination="cxh-OG-aKi" kind="push" id="VNO-lx-nj2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="2T6-az-X5C" firstAttribute="leading" secondItem="iod-Vx-z3J" secondAttribute="leadingMargin" constant="24" id="3JM-PZ-2a0"/>
                             <constraint firstItem="Deg-Gt-lZF" firstAttribute="leading" secondItem="iod-Vx-z3J" secondAttribute="leadingMargin" constant="34" id="Bx1-a6-U8M"/>
                             <constraint firstItem="2T6-az-X5C" firstAttribute="top" secondItem="Deg-Gt-lZF" secondAttribute="bottom" constant="43" id="Jfp-kA-aS7"/>
+                            <constraint firstItem="Szm-ph-FAn" firstAttribute="centerX" secondItem="iod-Vx-z3J" secondAttribute="centerX" id="Oi0-4R-7PB"/>
+                            <constraint firstItem="0Od-XI-jw1" firstAttribute="top" secondItem="Szm-ph-FAn" secondAttribute="bottom" constant="129" id="VS5-TM-Xs9"/>
                             <constraint firstItem="9cq-IC-Lrr" firstAttribute="centerX" secondItem="2T6-az-X5C" secondAttribute="centerX" id="WwV-2o-uKv"/>
                             <constraint firstItem="Deg-Gt-lZF" firstAttribute="top" secondItem="pks-9j-e2y" secondAttribute="bottom" constant="18" id="idV-6i-cSE"/>
                             <constraint firstItem="9cq-IC-Lrr" firstAttribute="top" secondItem="2T6-az-X5C" secondAttribute="bottom" constant="30" id="lTa-SV-tC1"/>
@@ -83,6 +92,53 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZYv-5b-6g3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="252" y="9.4452773613193415"/>
+        </scene>
+        <!--Date Formatter Test Controller-->
+        <scene sceneID="gq0-gF-r0q">
+            <objects>
+                <viewController id="cxh-OG-aKi" customClass="SFJDateFormatterTestController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1uN-ZU-Nao"/>
+                        <viewControllerLayoutGuide type="bottom" id="OuX-bi-xKK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LPh-Dh-3kt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4Nd-1M-iVw">
+                                <rect key="frame" x="0.0" y="64" width="375" height="200"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Dp9-Z0-6gR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ts-1h-ayE">
+                                <rect key="frame" x="156.5" y="324" width="62" height="30"/>
+                                <state key="normal" title="当前时间"/>
+                                <connections>
+                                    <action selector="formatterBtn:" destination="cxh-OG-aKi" eventType="touchUpInside" id="Y3s-SY-gcp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4Nd-1M-iVw" firstAttribute="top" secondItem="1uN-ZU-Nao" secondAttribute="bottom" id="Gpz-Lw-4ao"/>
+                            <constraint firstItem="5ts-1h-ayE" firstAttribute="centerX" secondItem="4Nd-1M-iVw" secondAttribute="centerX" id="Q7A-5H-A2Q"/>
+                            <constraint firstItem="4Nd-1M-iVw" firstAttribute="leading" secondItem="LPh-Dh-3kt" secondAttribute="leading" id="XZV-Ak-KcD"/>
+                            <constraint firstItem="5ts-1h-ayE" firstAttribute="top" secondItem="4Nd-1M-iVw" secondAttribute="bottom" constant="60" id="csk-E5-pdE"/>
+                            <constraint firstAttribute="trailing" secondItem="4Nd-1M-iVw" secondAttribute="trailing" id="qQv-Xa-4Ys"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Nv4-ph-Yjj"/>
+                    <connections>
+                        <outlet property="textView" destination="4Nd-1M-iVw" id="G4s-NI-nH2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ITw-HV-83r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="942" y="7"/>
         </scene>
     </scenes>
 </document>
