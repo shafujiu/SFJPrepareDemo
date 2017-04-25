@@ -47,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8154BB591EAF5D870014285D /* SFJCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFJCommonDefine.h; sourceTree = "<group>"; };
 		81AE530E1E827AA100CC002B /* SFJPrepareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFJPrepareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AE53121E827AA100CC002B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81AE53141E827AA100CC002B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -179,6 +180,7 @@
 		81AE53DB1E827F6200CC002B /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				8154BB591EAF5D870014285D /* SFJCommonDefine.h */,
 				81AE531A1E827AA100CC002B /* Main.storyboard */,
 				81AE53DC1E827F6200CC002B /* ViewController */,
 			);
