@@ -132,3 +132,10 @@ initlize方法里面进行设置，导航控制器设置
 // 5. dateStr to DateStr
 + (NSString *)sfj_dateStrToDateStr:(NSString *)dateStr fromFormatterStr:(NSString *)fFormatter toFormatterStr:(NSString *)toformatter;
 ```
+
+## 常用的宏定义
+
+> 创建常用的宏定义文件SFJCommonDefine.h
+
+> pch 文件的添加 building setting -> Prefix header -> $(SRCROOT)/项目名称/pch文件名”（例如：$(SRCROOT)/LotteryFive/LotteryFive-Prefix.pch）
+

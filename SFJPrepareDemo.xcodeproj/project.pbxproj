@@ -377,6 +377,7 @@
 				TargetAttributes = {
 					81AE530D1E827AA100CC002B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9FE55VPLAR;
 						ProvisioningStyle = Automatic;
 					};
 					81AE53261E827AA100CC002B = {
@@ -610,7 +611,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9FE55VPLAR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SFJPrepareDemo/SFJPrepare-Prefix.pch";
 				INFOPLIST_FILE = SFJPrepareDemo/Info.plist;
@@ -628,7 +629,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9FE55VPLAR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SFJPrepareDemo/SFJPrepare-Prefix.pch";
 				INFOPLIST_FILE = SFJPrepareDemo/Info.plist;

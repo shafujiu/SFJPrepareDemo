@@ -19,7 +19,12 @@
 - (IBAction)formatterBtn:(id)sender {
     NSString *dateStr = [NSDateFormatter sfj_dateToDateStr:[NSDate date] formatterStr:@"yyyy-MM-dd HH:mm:ss"];
     
-    _textView.text = [NSString stringWithFormat:@"格式化当前时间： %@",dateStr];
+    
+    
+//    _textView.text = [NSString stringWithFormat:@"格式化当前时间： %@",dateStr];
+    
+    NSString *timeIntervalStr = [NSDateFormatter sfj_timeIntervalFromLastTime:@"2017-12-22 12:12:12" lastTimeFormat:@"yyyy-MM-dd HH:mm:ss" ToCurrentTime:@"2017-12-25 10:12:12" currentTimeFormat:@"yyyy-MM-dd HH:mm:ss"];
+    _textView.text = timeIntervalStr;
     
 }
 
