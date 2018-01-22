@@ -17,6 +17,7 @@
 		81AE53DF1E827F9300CC002B /* SFJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE53DE1E827F9300CC002B /* SFJBaseViewController.m */; };
 		81AE53E21E827FC400CC002B /* SFJBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE53E11E827FC400CC002B /* SFJBaseNavController.m */; };
 		81AE53E51E82800D00CC002B /* SFJMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AE53E41E82800D00CC002B /* SFJMainTabBarController.m */; };
+		81CD146D1F04E59700AF282D /* SFJVBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CD146C1F04E59700AF282D /* SFJVBtn.m */; };
 		81E7E8C31E9F7BF40034C9E1 /* SFJFirstPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E7E8B51E9F7BF40034C9E1 /* SFJFirstPage.storyboard */; };
 		81E7E8C41E9F7BF40034C9E1 /* SFJFirstPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8B71E9F7BF40034C9E1 /* SFJFirstPageController.m */; };
 		81E7E8C51E9F7BF40034C9E1 /* SFJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8BD1E9F7BF40034C9E1 /* SFJLoginViewController.m */; };
@@ -69,6 +70,8 @@
 		81AE53E11E827FC400CC002B /* SFJBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJBaseNavController.m; sourceTree = "<group>"; };
 		81AE53E31E82800D00CC002B /* SFJMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJMainTabBarController.h; sourceTree = "<group>"; };
 		81AE53E41E82800D00CC002B /* SFJMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJMainTabBarController.m; sourceTree = "<group>"; };
+		81CD146B1F04E59700AF282D /* SFJVBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJVBtn.h; sourceTree = "<group>"; };
+		81CD146C1F04E59700AF282D /* SFJVBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJVBtn.m; sourceTree = "<group>"; };
 		81E7E8B51E9F7BF40034C9E1 /* SFJFirstPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SFJFirstPage.storyboard; sourceTree = "<group>"; };
 		81E7E8B61E9F7BF40034C9E1 /* SFJFirstPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJFirstPageController.h; sourceTree = "<group>"; };
 		81E7E8B71E9F7BF40034C9E1 /* SFJFirstPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJFirstPageController.m; sourceTree = "<group>"; };
@@ -182,6 +185,8 @@
 			children = (
 				8154BB591EAF5D870014285D /* SFJCommonDefine.h */,
 				81AE531A1E827AA100CC002B /* Main.storyboard */,
+				81CD146B1F04E59700AF282D /* SFJVBtn.h */,
+				81CD146C1F04E59700AF282D /* SFJVBtn.m */,
 				81AE53DC1E827F6200CC002B /* ViewController */,
 			);
 			path = Base;
@@ -451,6 +456,7 @@
 				81AE53161E827AA100CC002B /* AppDelegate.m in Sources */,
 				81E7E8D91EA07DE50034C9E1 /* NSDateFormatter+SFJExtension.m in Sources */,
 				81AE53E21E827FC400CC002B /* SFJBaseNavController.m in Sources */,
+				81CD146D1F04E59700AF282D /* SFJVBtn.m in Sources */,
 				81E7E8C71E9F7BF40034C9E1 /* SFJSetViewController.m in Sources */,
 				81AE53131E827AA100CC002B /* main.m in Sources */,
 				81AE53DF1E827F9300CC002B /* SFJBaseViewController.m in Sources */,

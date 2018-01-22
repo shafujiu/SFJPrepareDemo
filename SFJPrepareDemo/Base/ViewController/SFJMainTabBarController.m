@@ -66,11 +66,11 @@
 // 通过代码设置
 - (void)p_setupControllers{
     
-    UIViewController *firstvc = [[SFJFirstPageController alloc] init];
-    [self p_setupChildVC:firstvc title:@"首页" image:@"tab_first_page_icon" selectedImage:@"tab_first_page_icon_h"];
-    
-    UIViewController *setVC = [[SFJSetViewController alloc] init];
-    [self p_setupChildVC:setVC title:@"设置" image:@"tab_me" selectedImage:@"tab_me_h"];
+//    UIViewController *firstvc = [[SFJFirstPageController alloc] init];
+//    [self p_setupChildVC:firstvc title:@"首页" image:@"tab_first_page_icon" selectedImage:@"tab_first_page_icon_h"];
+//    
+//    UIViewController *setVC = [[SFJSetViewController alloc] init];
+//    [self p_setupChildVC:setVC title:@"设置" image:@"tab_me" selectedImage:@"tab_me_h"];
 }
 
 - (void)viewDidLoad {
